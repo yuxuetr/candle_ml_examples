@@ -1,0 +1,11 @@
+debug/
+target/
+Cargo.lock
+dataset/
+saved_model/
+**/*.rs.bk
+*.pdb
+.DS_Store
+*.dylib
+*.so
+*.swp
