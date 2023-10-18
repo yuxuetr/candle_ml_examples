@@ -2,4 +2,5 @@
 members = [
   "linear_mnist",
   "mlp_mnist",
+  "cnn_mnist",
 ]
