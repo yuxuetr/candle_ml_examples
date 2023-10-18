@@ -125,7 +125,7 @@ fn main() ->anyhow::Result<()> {
     println!("Test  Images: {:?}", m.test_images.shape());
     println!("Test  Labels: {:?}", m.test_labels.shape());
 
-    let default_learning_rate: f64 = 0.1;
+    let default_learning_rate: f64 = 0.05;
 
     let training_args = TrainingArgs {
         epochs: args.epochs,
